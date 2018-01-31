@@ -34,7 +34,7 @@ them in the corresponding directories within `data`.
 
 3. After downloading all the files, we can create networks by running the following Jupyter notebooks:
 - `get-graph-norms.ipynb`
-- `get-graph-w2v.ipynb`
+- `get-graph-word2vec.ipynb`
 - `get-graph-glove.ipynb`
 
 The notebooks will load downloaded files and create `*pkl` files containing graph edges. Those will be stored in the `./data/{word2vec,glove}` directories.
@@ -57,3 +57,7 @@ They do not depend on each other, so to speed things up those can be executed in
 - To reproduce results from the `Degree distributions` section, refer to the `analysis2-plot-degree-distr.ipynb` notebook
 - To reproduce results from the `Hierarchical topology` section, refer to the `analysis3-explore-local-clustering.ipynb` notebook
 
+Due to the randomness in selecting `k` edges when constructing directed
+networks, and particularly those created with the cs-method, some numbers might
+differ slightly (e.g., network statistics, LR test values and clustering) from the ones in the paper.
+This does not affect the overall results or conclusions.
