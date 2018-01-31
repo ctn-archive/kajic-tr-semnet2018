@@ -1,0 +1,1 @@
+All `Cue_Target_Pairs*` files from the [USF website](http://w3.usf.edu/FreeAssociation/AppendixA/index.html) should be placed here. They should be downloaded as-is without changes to the name (i.e., `Cue_Target_Pairs.A-B` and not `Cue_Target_Pairs.A-B.txt`), otherwise Python scripts will not find them.
